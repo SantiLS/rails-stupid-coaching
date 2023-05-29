@@ -13,3 +13,6 @@
  *= require_tree .
  *= require_self
  */
+.link-unsublined {
+  text-decoration: none;
+}

@@ -1,0 +1,21 @@
+<div class="container">
+<h1>Stupid Coaching<h1>
+  <div class="d-flex flex-column mb-3">
+    <p>
+      <%= params[:question] %>
+      <br>
+      <em>- You</em>
+    </p>
+  </div>
+
+  <div class="d-flex flex-column mb-3">
+    <p>
+      <%= @answers %>
+      <br>
+      <em>- Your Coach</em>
+    <p>
+  </div>
+  <div class="d-flex flex-column mb-3">
+    <%= link_to "Ask a new question", ask_path %>
+  </div>
+</div>
